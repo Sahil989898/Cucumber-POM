@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-11T14:18:10 PDT" name="Default suite" finished-at="2022-10-11T14:18:53 PDT" duration-ms="43387">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.test.Runner.Runner@6c6cb480]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-10-11T14:18:10 PDT" name="Default test" finished-at="2022-10-11T14:18:53 PDT" duration-ms="43387">
+      <class name="com.test.Runner.Runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.test.Runner.Runner@6c6cb480]" started-at="2022-10-11T14:18:10 PDT" name="setUpClass" finished-at="2022-10-11T14:18:10 PDT" duration-ms="682" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2b5f8e61]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.test.Runner.Runner@6c6cb480]" started-at="2022-10-11T14:18:10 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-11T14:18:18 PDT" duration-ms="7916" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login to SalesForce TC 1"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sales Force Automation scripts in Cucumber"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.test.Runner.Runner@6c6cb480]" started-at="2022-10-11T14:18:18 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-11T14:18:24 PDT" duration-ms="5559" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login to SalesForce TC 2"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sales Force Automation scripts in Cucumber"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.test.Runner.Runner@6c6cb480]" started-at="2022-10-11T14:18:24 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-11T14:18:36 PDT" duration-ms="11802" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Remember Me TC 3"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sales Force Automation scripts in Cucumber"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.test.Runner.Runner@6c6cb480]" started-at="2022-10-11T14:18:36 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-11T14:18:39 PDT" duration-ms="3440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Forgot Password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sales Force Automation scripts in Cucumber"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.test.Runner.Runner@6c6cb480]" started-at="2022-10-11T14:18:39 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-11T14:18:44 PDT" duration-ms="4932" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Forgot Password 4B"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sales Force Automation scripts in Cucumber"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.test.Runner.Runner@6c6cb480]" started-at="2022-10-11T14:18:44 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-11T14:18:53 PDT" duration-ms="8934" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC 05"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sales Force Automation scripts in Cucumber"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.test.Runner.Runner@6c6cb480]" started-at="2022-10-11T14:18:53 PDT" name="tearDownClass" finished-at="2022-10-11T14:18:53 PDT" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.test.Runner.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
